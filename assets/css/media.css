@@ -1,0 +1,28 @@
+@media (max-width:650px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        gap: 1.8rem;
+    }
+
+    nav a {
+        font-size: clamp(1.4rem, 4vw, 2.2rem);
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .universe-wrapper {
+        margin: 0;
+    }
+
+}

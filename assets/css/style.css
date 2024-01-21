@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+    --link: #C4C4CC;
+    --title: #E1E1E6;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../images/mountains-universe-1.png);
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    max-width: 121rem;
+    margin: auto;
+    width: 90%;
+}
+
+h1 {
+    color: var(--title);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%;
+    margin-bottom: 2.4rem;
+}
+
+/* Universe & Explore */
+.universe-wrapper,
+.explore-wrapper {
+    max-width: 64.8rem;
+    margin-top: 2.8rem;
+    margin-left: 3rem;
+}
+
+.universe-wrapper p,
+.explore-wrapper p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+    color: #E1E1E6;
+    margin-top: 1.8rem;
+}

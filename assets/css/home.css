@@ -1,0 +1,39 @@
+.home-wrapper {
+    display: grid;
+    place-items: center;
+    margin-top: -7.8rem;
+}
+
+.home {
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.home button {
+    display: inline-flex;
+    padding: 1.2rem 3.2rem;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+    border-radius: .5rem;
+    border: .2rem solid white;
+
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.home button:hover {
+    transform: scale(1.1);
+}
