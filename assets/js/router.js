@@ -11,8 +11,16 @@ export class Router {
 
         window.history.pushState({}, "", event.target.href)
         
-        document.body.style.backgroundImage = `url(assets/images${window.location.pathname}.png)`
+
+        if(window.location.pathname == "/explore") {
+            document.body.style.backgroundImage = "url(assets/images/explore.png)"
+        } else if(window.location.pathname == "/universe") {
+            document.body.style.backgroundImage = "url(assets/images/universe.png)"
+        } else {
+            document.body.style.backgroundImage = "url(assets/images/home.png)"
+        }
     
+
         this.handle()
     }
 
