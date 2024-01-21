@@ -1,6 +1,10 @@
 ## 💻 Projeto
 
-Para acesso o site [clique aqui](https://cookie-da-sorte.vercel.app/)
+Para acesso o site [clique aqui](https://explore-universe.vercel.app/)
+
+<p align="center">
+  <img alt="" src="assets/images/cover.png" width="100%">
+</p>
 
 O que foi utilizado:
 
